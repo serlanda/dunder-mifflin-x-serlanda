@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* bg-[#F0F0F0]  */
+
+@layer utilities {
+    body {
+        @apply bg-[#f2f3ef] font-Roboto overflow-y-scroll box-border
+    }
+    .navbar {
+        @apply  mx-5 first-of-type:ml-6 text-lg tracking-wider font-normal transition-colors relative left-0
+    }
+    .navbar::after { 
+        @apply absolute content-[''] bg-[#7856ff] h-[2.5px] w-[0%] left-0 -bottom-[5px] rounded-3xl duration-200
+    }
+    .navbar:hover::after {
+        @apply w-[100%]
+    }
+    /* .active {
+        @apply m-5 text-lg tracking-wider font-normal transition-colors relative
+    }
+    .active::after {
+        @apply absolute content-[''] bg-[#7856ff] h-[3px] w-[100%] left-0 -bottom-[5px] rounded-3xl
+    } */
+    /* .dunder::after {
+        @apply absolute content-[''] bg-[#7856ff] h-[3px] w-[100%] left-0 bottom-0 rounded-3xl
+    }
+    .h2::after {
+        @apply absolute content-[''] bg-[#7856ff] h-[3px] w-[100%] left-0 -bottom-[9px] rounded-3xl
+    } */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap);
+    }
+}
