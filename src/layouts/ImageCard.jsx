@@ -1,6 +1,6 @@
 export default function ImageCard() {
     return (
-        <section className="flex justify-center items-center gap-4 my-7 text-[#fff]">
+        <section className="flex justify-center items-center gap-4 my-20 text-[#fff]">
             <div className="w-[350px] h-[350px] bg-[#ffbe0b] flex flex-col justify-center items-center p-5">
                 <h2 className="mb-[35px] tracking-widest text-[13px] font-bold">DUNDER MİFFLİN</h2>
                 <p className="mb-auto text-[37px] text-center leading-[45px] tracking-wider">Sürdürülebilir üretimi ve tüketimi destekliyor.</p>
