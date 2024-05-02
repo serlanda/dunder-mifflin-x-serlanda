@@ -4,11 +4,11 @@
 
 
 
-/* bg-[#F0F0F0]  */
+/* bg-[#F0F0F0] #f2f3ef */
 
 @layer utilities {
     body {
-        @apply bg-[#f2f3ef] font-Roboto overflow-y-scroll box-border
+        @apply bg-[#fff] font-Roboto overflow-y-scroll box-border
     }
     .navbar {
         @apply  mx-5 first-of-type:ml-6 text-lg tracking-wider font-normal transition-colors relative left-0

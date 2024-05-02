@@ -7,7 +7,7 @@ export default function Featured() {
     <section>
       <div className="flex flex-col justify-center items-center gap-2">
         <h2 className="text-[42px] tracking-widest">
-          Dunder Mifflin x Salah Yudin
+          Dunder Mifflin x Salah Yudin &nbsp; &nbsp;
         </h2>
         <p className="text-[20px] tracking-widest text-gray-600">
           Dunder Mifflin'in ikonik çalışmaları ve renkli görselleri Salah

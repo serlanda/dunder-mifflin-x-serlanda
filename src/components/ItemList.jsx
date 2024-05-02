@@ -10,7 +10,7 @@ export default function ItemList({ products, category }) {
     <>
       <main className="container mx-auto px-7 mb-7">
         {products && (
-        <h2 className="my-7 lg:text-[25px] text-[21px] text-[#7856ff] text-left tracking-wider font-semibold">
+        <h2 className="my-7 lg:text-[25px] text-[21px] text-[#000] text-left tracking-wider font-semibold">
           Yeni Koleksiyon!
         </h2>
         )}
