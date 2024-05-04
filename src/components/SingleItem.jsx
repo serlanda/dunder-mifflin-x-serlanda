@@ -55,7 +55,7 @@ export default function SingleItem({ item }) {
         </p>
       </div>
       {isHovered && (
-        <button className="absolute bottom-[122px] left-0 right-0 mx-auto w-[300px] py-2 bg-black text-white tracking-widest text-[13px] font-bold hover:opacity-85 transition-colors">
+        <button className="absolute bottom-[122px] left-0 right-0 mx-auto w-[320px] py-2 bg-black text-white tracking-widest text-[13px] font-bold hover:opacity-85 transition-colors">
           SEPETE EKLE
         </button>
       )}
@@ -68,6 +68,8 @@ export default function SingleItem({ item }) {
 // lg:max-w-[225px] max-w-[110px] mx-auto lg:min-h-[250px] min-h-[150px] lg:max-h-[200px] max-h-[110px] object-contain group-hover:scale-110 transition-transform
 
 // mx-auto border border-[#000] px-[109px] h-10 hidden lg:block lg:opacity-100 opacity-0 hover:bg-[#e6e7df] transition-colors
+
+// 300px
 
 {
   /* <p className="lg:text-lg text-sm font-semibold absolute lg:bottom-[35px] bottom-[50px] right-10 text-[#ffbe0b] z-10">
